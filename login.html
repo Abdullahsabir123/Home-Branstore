@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC"
+      crossorigin="anonymous"
+    />
+    <script
+      src="https://kit.fontawesome.com/f240561dba.js"
+      crossorigin="anonymous"
+    ></script>
+    <title>Document</title>
+    <style>
+      .bg-danger-1 {
+        background-color: rgba(0, 0, 0, 0.078) !important;
+      }
+      .container-1 {
+        width: 35vh;
+        margin: auto;
+      }
+      .Container {
+        width: 20%;
+        margin: auto;
+        padding: 10px;
+      }
+
+      input {
+        width: 100%;
+      }
+      button {
+        font-size: 13px;
+        border-radius: 2px;
+        width: 60px;
+        padding: 5px;
+      }
+      /* @media screen and (min-width: 768px) {
+        .Container,
+        .Container1 {
+          width: 40%;
+        }
+      } */
+      .dip {
+        /* display: flex; */
+        /* flex-wrap: wrap; */
+        /* justify-content: center; */
+        width: 40vh;
+      }
+      .check {
+        position: relative;
+        top: 10px;
+        right: 130px;
+      }
+      .box {
+        position: relative;
+        right: 30px;
+        bottom: 20px;
+      }
+      .bttn {
+        position: relative;
+        bottom: 15px;
+        left: 50px;
+      }
+      .chk {
+        border: 1px solid rgba(0, 0, 0, 0.475);
+        height: 40px;
+        border-radius: 5px;
+      }
+    </style>
+  </head>
+
+  <body class="bg-danger-1">
+    <center>
+      <img
+        src="Images/wordpress.jpeg"
+        alt="wordpress"
+        class="mt-5"
+        style="height: 100px"
+      />
+    </center>
+    <div class="Container border border-5 mt-4 bg-light">
+      <center>
+        <br />
+        <label for="Email text-start">Username or Email Address</label>
+        <br />
+        <input name="Email" type="email" id="1n" class="chk" />
+        <br />
+        <label for="Password">Password</label>
+        <br />
+        <input name="Password" type="password" id="Pw" class="chk" />
+        <br />
+        <div class="dip">
+          <input name="Rememberme" type="checkbox" class="check" />
+          <label for="Rememberme" class="box">Remember Me</label>
+          <button
+            onclick="signUp()"
+            class="btn-outline-primary-1 btn-primary text-light bttn f-s"
+          >
+            Log In
+          </button>
+        </div>
+      </center>
+    </div>
+    <br>
+    <div class="container-1">
+      <a href="lost.html" class="f-s text-decoration-none text-dark">Lost your password?</a>
+      <br>
+      <a href="index.html" class="f-s text-decoration-none text-dark"><i class="fa-solid fa-arrow-left"></i> Go to Brandstore</a>
+    </div>
+    <!-- <div class="Container1">
+            <p>Already have an account? Sign in</p>
+            <input type="text" id="Em" placeholder="Enter your Email">
+            <input type="password" id="Pwd" placeholder="Enter your Password">
+            <button onclick="signIn()">Sign In</button>
+        </div> -->
+    <script src="js.js"></script>
+  </body>
+</html>
