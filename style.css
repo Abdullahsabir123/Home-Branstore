@@ -1,3 +1,6 @@
+.bor-bor {
+  border: 2px solid black;
+}
 * {
   margin: 0px;
   padding: 0px;
@@ -327,56 +330,56 @@ a:hover {
   width: 5vw;
   margin: auto;
 }
-.cont-8{
+.cont-8 {
   margin: auto;
   width: 15vw;
 }
-.f-s1{
+.f-s1 {
   font-size: 50px;
 }
-.cont-9{
+.cont-9 {
   width: 50vw;
   margin: auto;
 }
-.cont-10{
+.cont-10 {
   width: 30vw;
   margin: auto;
 }
-.container-1{
+.container-1 {
   margin: auto;
   display: flex;
   flex-wrap: wrap;
-  justify-content:space-around;
+  justify-content: space-around;
   width: 60vw;
 }
-.card-4{
+.card-4 {
   margin: auto;
   height: 90px;
   width: 90px;
 }
-.cards-1{
+.cards-1 {
   margin-bottom: 20px;
   background-color: rgba(0, 0, 0, 0.035);
   width: 250px;
 }
-.text-3{
+.text-3 {
   margin: auto;
 }
-.text-4{
+.text-4 {
   width: 113px;
   margin: auto;
 }
-.text-5{
+.text-5 {
   width: 40px;
   margin: auto;
 }
-.text-6{
+.text-6 {
   margin: auto;
   width: 125px;
 }
-.bg-pos{
+.bg-pos {
   margin: auto;
-  width: 30vw;    
+  width: 30vw;
   height: 575px;
 }
 .bg-img-3 {
@@ -390,20 +393,82 @@ a:hover {
   background-attachment: fixed;
   background-position: center;
 }
-.txt-cen{
+.txt-cen {
   position: relative;
   top: 175px;
 }
-.txt-cen1{
+.txt-cen1 {
   position: relative;
   top: 150px;
 }
-.txt-po{
+.txt-po {
   color: #000;
   margin-left: 20px;
   margin-right: 20px;
 }
-.logo{
+.logo {
   position: relative;
   top: 200px;
+}
+.bg-img-3 {
+  position: relative;
+  width: 100%;
+  height: 100%;
+  background-image: linear-gradient(rgba(0, 0, 0, 0.642), rgba(0, 0, 0, 0.651)),
+    url(Images/contact-img.webp);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-attachment: fixed;
+  background-position: center;
+}
+.cont-11 {
+  border-bottom: 2px solid black;
+  margin: auto;
+  width: 5vw;
+}
+.boxes {
+  position: relative;
+  height: 30vh;
+  width: 15vw;
+  box-shadow: 5px 5px 12px 5px rgba(0, 0, 0, 0.105);
+}
+.bg-color {
+  background-color: rgba(0, 0, 0, 0.020);
+}
+.disbox {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+}
+.in-put {
+  margin-bottom: 20px;
+  margin-left: 20px;
+  width: 90%;
+  height: 50px;
+}
+.in-put-1 {
+  margin-bottom: 0px 10px;
+  margin-left: 20px;
+  width: 90%;
+  height: 175px;
+}
+.cont-dis{
+  display: flex;
+  flex-wrap: wrap;
+  height: 75vh;
+}
+.wid-box{
+  width: 50%;
+}
+.container-3{
+  margin: auto;
+  width: 40vw;
+  box-shadow: 7px 7px 12px 7px rgba(0, 0, 0, 0.105)
+}
+.fs-6{
+  padding: 10px 15px;
+  margin-left: 20px;
+}
+.b-g-c-o{
+  background-color: white
 }
