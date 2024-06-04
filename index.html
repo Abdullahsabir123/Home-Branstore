@@ -20,6 +20,7 @@
     ></script>
     <link rel="stylesheet" href="style.css" />
     <link rel="stylesheet" href="Boot.css" />
+    <link rel="stylesheet" href="media.css" />
     <title>Home - Bandstore</title>
   </head>
   <body>
@@ -46,12 +47,18 @@
             <div class="collapse navbar-collapse" id="navbarSupportedContent">
               <ul class="navbar-nav me-auto mb-2 mb-lg-0">
                 <li class="nav-item">
-                  <a class="nav-link active" aria-current="page" href="Everything.html"
+                  <a
+                    class="nav-link active"
+                    aria-current="page"
+                    href="Everything.html"
                     >EVERYTHING</a
                   >
                 </li>
                 <li class="nav-item">
-                  <a class="nav-link active" aria-current="page" href="Women.html"
+                  <a
+                    class="nav-link active"
+                    aria-current="page"
+                    href="Women.html"
                     >WOMEN</a
                   >
                 </li>
@@ -61,7 +68,10 @@
                   >
                 </li>
                 <li class="nav-item">
-                  <a class="nav-link active" aria-current="page" href="Accessories.html"
+                  <a
+                    class="nav-link active"
+                    aria-current="page"
+                    href="Accessories.html"
                     >ACCESSORIES</a
                   >
                 </li>
@@ -92,7 +102,9 @@
                   >
                 </li>
                 <li class="nav-item list-unstyled">
-                  <a href="login.html"><i class="fa-solid fa-user fa-user-1"></i></a>
+                  <a href="login.html"
+                    ><i class="fa-solid fa-user fa-user-1"></i
+                  ></a>
                 </li>
               </ul>
             </div>
@@ -100,18 +112,19 @@
         </nav>
         <!-- navbar ends -->
         <!-- text div starts -->
-        <div class="positioncont">
-          <div>
+        <div class="container w-75 mt-5">
+          <div class="positioncont row">
             <div>
-              <h1 class="text-light fosi1">Raining Offers For Hot Summer!</h1>
-              <br />
-              <br />
+              <h1 class="col-sm-12 col-xxl-6 text-light fosi1">
+                Raining Offers For Hot Summer!
+              </h1>
             </div>
-            <div class="border-solid border-light">
-              <h3 class="text-light fosi2">25% Off On All Products</h3>
-              <br />
+            <div class="mt-2">
+              <h3 class="col-sm-12 text-light fosi2">
+                25% Off On All Products
+              </h3>
             </div>
-            <div class="border-solid border-light">
+            <div class="mt-2 col-sm-xxl-12">
               <button class="btn1 btn-outline-light1 fw-bold">SHOP NOW</button>
               <button class="btn2 btn-outline-light fw-bold">FIND MORE</button>
             </div>
@@ -122,7 +135,7 @@
     </div>
     <!-- bg-image div ends -->
     <!-- slider div starts -->
-    <div>
+    <div class="container mt-5">
       <div class="container slide-container">
         <div class="slide-image">
           <img src="Images/client-logo-1.png" alt="Logo image" />
@@ -140,51 +153,71 @@
           <img src="Images/client-logo-5.png" alt="Logo image" />
         </div>
       </div>
-      <div class="container1 mt-5">
-        <div class="row">
-          <div class="col-md-4">
-            <div class="cards card-1 text-light">
-              <h4 class="hp">20% Off On Tank Tops</h4>
-              <p class="pp">Lorem ipsum dolor sit amet, consectetur</p>
-              <p class="pp1">adipiscing elit. Proin ac dictum.</p>
-              <button class="btn1 btn-outline-light1 fw-bold bt-1">
-                SHOP NOW
-              </button>
+      <!-- slider div ended -->
+      <!-- cards section started -->
+        <div class="conta  mt-5">
+          <!-- 1 -->
+          <div class="card text-white  w-2 mt-1">
+            <img
+              src="Images/card-images-1.jpg"
+              class="card-img card-1"
+              alt="#"
+              style="height: 100%; width: 100%"
+            />
+            <div class="card-img-overlay mt-6">
+              <h5 class="card-title">20% Off On Tank Tops</h5>
+              <p class="card-text sm-txt">
+                Lorem ipsum dolor sit amet, consectetur adipiscing elit. Proin ac dictum.
+              </p>
+              <p class="card-text">Last updated 3 mins ago</p>
+              <button class="btn1 btn-outline-light1 fw-bold">SHOP NOW</button>
             </div>
           </div>
-          <div class="col-md-4">
-            <div class="cards card-2 text-light">
-              <h4 class="hp">Latest Eyewear For You</h4>
-              <p class="pp">Lorem ipsum dolor sit amet, consectetur</p>
-              <p class="pp1">adipiscing elit. Proin ac dictum.</p>
-              <button class="btn1 btn-outline-light1 fw-bold bt-1">
-                SHOP NOW
-              </button>
+          <!-- 2 -->
+          <div class="card text-white w-2 mt-1">
+            <img
+              src="Images/card-img-2.jpg"
+              class="card-img card-1"
+              alt="#"
+              style="height: 100%; width: 100%"
+            />
+            <div class="card-img-overlay mt-6">
+              <h5 class="card-title">20% Off On Tank Tops</h5>
+              <p class="card-text sm-txt">
+                Lorem ipsum dolor sit amet, consectetur adipiscing elit. Proin ac dictum.
+              </p>
+              <p class="card-text">Last updated 3 mins ago</p>
+              <button class="btn1 btn-outline-light1 fw-bold">SHOP NOW</button>
             </div>
           </div>
-          <div class="col-md-4">
-            <div class="cards card-3 text-light">
-              <h4 class="hp">Let's Lorem Suit Up!</h4>
-              <p class="pp">Lorem ipsum dolor sit amet, consectetur</p>
-              <p class="pp1">adipiscing elit. Proin ac dictum.</p>
-              <button class="btn1 btn-outline-light1 fw-bold bt-1">
-                SHOP NOW
-              </button>
+          <!-- 3 -->
+          <div class="card text-white  w-2 mt-1">
+            <img
+              src="Images/card-images-3.jpg"
+              class="card-img card-1"
+              alt="#"
+              style="height: 100%; width: 100%"
+            />
+            <div class="card-img-overlay mt-6">
+              <h5 class="card-title">20% Off On Tank Tops</h5>
+              <p class="card-text sm-txt">
+                Lorem ipsum dolor sit amet, consectetur adipiscing elit. Proin ac dictum.
+              </p>
+              <p class="card-text">Last updated 3 mins ago</p>
+              <button class="btn1 btn-outline-light1 fw-bold">SHOP NOW</button>
             </div>
           </div>
         </div>
-      </div>
     </div>
-    <!-- slider div ends -->
-    <div class="container mt-5 bg-col-1">
-      <div class="dist">
-        <h2 style="font-size: 40px">Featured Products</h2>
-      </div>
-      <div class="cont-2"></div>
-      <!-- cards div starts -->
-      <center>
-        <div class="container2">
-          <div class="card m-3" style="width: 18rem">
+      <!-- cards section ended -->
+      <div class="container mt-5 bg-col-2">
+        <div class="dist">
+          <h2 class="f-f mt-5">Featured Products</h2>
+        </div>
+        <div class="cont-2"></div>
+        <!-- cards div starts -->
+        <div class="container2 mt-5">
+          <div class="card" style="width: 18rem">
             <img
               src="Images/blue-sports-shoe1-300x300.jpg"
               class="card-img-top"
@@ -193,8 +226,7 @@
             <div class="card-body">
               <h5 class="card-title fs-s1">DNK Blue Shoes</h5>
               <p class="card-text">Men</p>
-              <p class="card-text"><del>$150.00 </del><b> $28.00
-              </b></p>
+              <p class="card-text"><del>$150.00 </del><b> $28.00 </b></p>
               <i class="fa-regular fa-star"></i>
               <i class="fa-regular fa-star"></i>
               <i class="fa-regular fa-star"></i>
@@ -202,7 +234,7 @@
               <i class="fa-regular fa-star"></i>
             </div>
           </div>
-          <div class="card m-3" style="width: 18rem">
+          <div class="card" style="width: 18rem">
             <img
               src="Images/blue-sports-shoe1-300x300.jpg"
               class="card-img-top"
@@ -219,14 +251,21 @@
               <i class="fa-regular fa-star"></i>
             </div>
           </div>
-          <div class="card m-3" style="width: 18rem">
-            <a href="BasicGrayJeans.html"><img
-              src="Images/product-w-jeans4-300x300.jpg"
-              class="card-img-top"
-              alt="#"
+          <div class="card" style="width: 18rem">
+            <a href="BasicGrayJeans.html"
+              ><img
+                src="Images/product-w-jeans4-300x300.jpg"
+                class="card-img-top"
+                alt="#"
             /></a>
             <div class="card-body">
-              <h5 class="card-title"><a href="BasicGrayJeans.html" class="text-decoration-none text-dark">Basic Gray Jeans</a></h5>
+              <h5 class="card-title">
+                <a
+                  href="BasicGrayJeans.html"
+                  class="text-decoration-none text-dark"
+                  >Basic Gray Jeans</a
+                >
+              </h5>
               <p class="card-text">Women</p>
               <p class="card-text"><b>$180.00</b></p>
               <i class="fa-regular fa-star"></i>
@@ -236,14 +275,21 @@
               <i class="fa-regular fa-star"></i>
             </div>
           </div>
-          <div class="card m-3" style="width: 18rem">
-            <a href="BlueDenimJeans.html"><img
-              src="Images/product-w-jeans2-300x300.jpg"
-              class="card-img-top"
-              alt="#"
+          <div class="card" style="width: 18rem">
+            <a href="BlueDenimJeans.html"
+              ><img
+                src="Images/product-w-jeans2-300x300.jpg"
+                class="card-img-top"
+                alt="#"
             /></a>
             <div class="card-body">
-              <h5 class="card-title"><a href="BlueDenimJeans.html" class="text-decoration-none text-dark">Blue Denim Jeans</a></h5>
+              <h5 class="card-title">
+                <a
+                  href="BlueDenimJeans.html"
+                  class="text-decoration-none text-dark"
+                  >Blue Denim Jeans</a
+                >
+              </h5>
               <p class="card-text">Women</p>
               <p class="card-text"><b>$150.00</b></p>
               <i class="fa-regular fa-star"></i>
@@ -253,7 +299,7 @@
               <i class="fa-regular fa-star"></i>
             </div>
           </div>
-          <div class="card m-3" style="width: 18rem">
+          <div class="card" style="width: 18rem">
             <img
               src="Images/product-w-jeans1-300x300.jpg"
               class="card-img-top"
@@ -270,14 +316,19 @@
               <p class="card-text fa-regular fa-star"></p>
             </div>
           </div>
-          <div class="card m-3" style="width: 18rem">
-            <a href="Anchor.html"><img
-              src="Images/chain-product-accessory2-300x300.jpg"
-              class="card-img-top"
-              alt="#"
+          <div class="card" style="width: 18rem">
+            <a href="Anchor.html"
+              ><img
+                src="Images/chain-product-accessory2-300x300.jpg"
+                class="card-img-top"
+                alt="#"
             /></a>
             <div class="card-body">
-              <h5 class="card-title"><a href="Anchor.html" class="text-decoration-none text-dark">Anchor Bracelet</a></h5>
+              <h5 class="card-title">
+                <a href="Anchor.html" class="text-decoration-none text-dark"
+                  >Anchor Bracelet</a
+                >
+              </h5>
               <p class="card-text">Accessories</p>
               <p class="card-text"><b>$150.00 - 180.00</b></p>
               <i class="fa-regular fa-star"></i>
@@ -287,17 +338,23 @@
               <i class="fa-regular fa-star"></i>
             </div>
           </div>
-          <div class="card m-3" style="width: 18rem">
-            <a href="BohoBangleBracelet.html"><img
-              src="Images/blue-product-accessory1-400x400.jpg"
-              class="card-img-top"
-              alt="#"
+          <div class="card" style="width: 18rem">
+            <a href="BohoBangleBracelet.html"
+              ><img
+                src="Images/blue-product-accessory1-400x400.jpg"
+                class="card-img-top"
+                alt="#"
             /></a>
             <div class="card-body">
-              <h5 class="card-title"><a href="BohoBangleBracelet.html" class="text-decoration-none text-dark">Boho Bangle Bracelet</a></h5>
+              <h5 class="card-title">
+                <a
+                  href="BohoBangleBracelet.html"
+                  class="text-decoration-none text-dark"
+                  >Boho Bangle Bracelet</a
+                >
+              </h5>
               <p class="card-text">Accessories</p>
-              <p class="card-text"><b>$150.00 - $170.00
-              </b></p>
+              <p class="card-text"><b>$150.00 - $170.00 </b></p>
               <i class="fa-regular fa-star"></i>
               <i class="fa-regular fa-star"></i>
               <i class="fa-regular fa-star"></i>
@@ -305,7 +362,7 @@
               <i class="fa-regular fa-star"></i>
             </div>
           </div>
-          <div class="card m-3" style="width: 18rem">
+          <div class="card" style="width: 18rem">
             <img
               src="Images/product-bag1-300x300.jpg"
               class="card-img-top"
@@ -324,124 +381,97 @@
           </div>
           <!-- ... -->
         </div>
-      </center>
-    </div>
-    <!-- cards div ends -->
-    <br>
-    <br>
-    <br>
-    <br>
-    <br>
-    <br>
-    <br>
-    <br>
-    <br>
-    <br>
-    <br>
-    <br>
-    <br>
-    <br>
-    <br>
-    <br>
-    <br>
-    <br>
-    <br>
-    <br>
-    <br>
-    <br>
-    <br>
-    <br>
-    <br>
-    <div class="container">
-      <div class="bg-col1">
+      </div>
+      <!-- cards div ends -->
+      <!-- bg-div-2 started -->
+      <div class="container h-2 mt-5">
         <div class="bg-img1 text-light">
-          <div class="container3">
-            <h4>Limited Time Offer</h4>
-            <br />
-            <h2>Special Edition</h2>
-            <br />
-            <p>
+          <div class="container3 pt-5">
+            <h4 class="mt-5 ms-5">Limited Time Offer</h4>
+            <h1 class="mt-7">Special Edition</h1>
+            <p class="mt-7">
               Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut elit
               tellus, luctus nec
             </p>
-            <p>ullamcorper mattis, pulvinar dapibus leo.</p>
-            <br />
-            <h5>Buy This T-shirt At 20% Discount, Use Code OFF20</h5>
-            <br />
-            <button class="btn1 btn-outline-light1 fw-bold">SHOP NOW</button>
+            <p class="mt-7">ullamcorper mattis, pulvinar dapibus leo.</p>
+            <h5 class="mt-7">Buy This T-shirt At 20% Discount, Use Code OFF20</h5>
+            <button class="btn1 btn-outline-light1 fw-bold mt-7">SHOP NOW</button>
           </div>
         </div>
       </div>
-    </div>
-    <div class="container mt-5">
-      <div class="row">
-        <div class="col-md-6 col-lg-3 mb-4">
-          <div class="card">
-            <center>
-              <img
-                src="Images/globe-free-img.png"
-                class="card-img-top1"
-                alt="..."
-              />
-
-              <div class="card-body">
-                <h5 class="card-title">Worldwide Shipping</h5>
-                <p class="card-text">It elit tellus, luctus nec ullamcorper</p>
-                <p>mattis, pulvinar dapibus leo.</p>
-              </div>
-            </center>
+      <!-- bg-div-2 ended -->
+      <!-- cards-part-3 -->
+      <div class="container mt-5">
+        <div class="row">
+          <div class="col-md-6 col-lg-3 mb-4">
+            <div class="card h-1">
+              <center>
+                <img
+                  src="Images/globe-free-img.png"
+                  class="card-img-top1"
+                  alt="..."
+                />
+                <div class="card-body">
+                  <h5 class="card-title">Worldwide Shipping</h5>
+                  <p class="card-text">It elit tellus, luctus nec ullamcorper</p>
+                  <p>mattis, pulvinar dapibus leo.</p>
+                </div>
+              </center>
+            </div>
           </div>
-        </div>
-        <div class="col-md-6 col-lg-3 mb-4">
-          <div class="card">
-            <center>
-              <img
-                src="Images/quality-free-img.png"
-                class="card-img-top1"
-                alt="..."
-              />
-              <div class="card-body">
-                <h5 class="card-title">Worldwide Shipping</h5>
-                <p class="card-text">It elit tellus, luctus nec ullamcorper</p>
-                <p>mattis, pulvinar dapibus leo.</p>
-              </div>
-            </center>
+          <div class="col-md-6 col-lg-3 mb-4">
+            <div class="card h-1">
+              <center>
+                <img
+                  src="Images/quality-free-img.png"
+                  class="card-img-top1"
+                  alt="..."
+                />
+                <div class="card-body">
+                  <h5 class="card-title">Worldwide Shipping</h5>
+                  <p class="card-text">It elit tellus, luctus nec ullamcorper</p>
+                  <p>mattis, pulvinar dapibus leo.</p>
+                </div>
+              </center>
+            </div>
           </div>
-        </div>
-        <div class="col-md-6 col-lg-3 mb-4">
-          <div class="card">
-            <center>
-              <img
-                src="Images/tag-free-img.png"
-                class="card-img-top1"
-                alt="..."
-              />
-              <div class="card-body">
-                <h5 class="card-title">Worldwide Shipping</h5>
-                <p class="card-text">It elit tellus, luctus nec ullamcorper</p>
-                <p>mattis, pulvinar dapibus leo.</p>
-              </div>
-            </center>
+          <div class="col-md-6 col-lg-3 mb-4">
+            <div class="card h-1">
+              <center>
+                <img
+                  src="Images/tag-free-img.png"
+                  class="card-img-top1"
+                  alt="..."
+                />
+                <div class="card-body">
+                  <h5 class="card-title">Worldwide Shipping</h5>
+                  <p class="card-text">It elit tellus, luctus nec ullamcorper</p>
+                  <p>mattis, pulvinar dapibus leo.</p>
+                </div>
+              </center>
+            </div>
           </div>
-        </div>
-        <div class="col-md-6 col-lg-3 mb-4">
-          <div class="card">
-            <center>
-              <img
-                src="Images/lock-free-img.png"
-                class="card-img-top1"
-                alt="..."
-              />
-              <div class="card-body">
-                <h5 class="card-title">Worldwide Shipping</h5>
-                <p class="card-text">It elit tellus, luctus nec ullamcorper</p>
-                <p>mattis, pulvinar dapibus leo.</p>
-              </div>
-            </center>
+          <div class="col-md-6 col-lg-3 mb-4">
+            <div class="card h-1">
+              <center>
+                <img
+                  src="Images/lock-free-img.png"
+                  class="card-img-top1"
+                  alt="..."
+                />
+                <div class="card-body">
+                  <h5 class="card-title">Worldwide Shipping</h5>
+                  <p class="card-text">It elit tellus, luctus nec ullamcorper</p>
+                  <p>mattis, pulvinar dapibus leo.</p>
+                </div>
+              </center>
+            </div>
           </div>
         </div>
       </div>
-    </div>
+    <!-- cards-part-3 -->
+    <!-- Footer started -->
+    <!-- Footer text started -->
     <div class="bor-der mt-5 mb-5">
       <div class="container fs-4 fw-bolder mt-5 mb-5">
         <a href="#" class="hor text-decoration-none text-dark mt-5"
@@ -449,51 +479,55 @@
         >
       </div>
     </div>
-    <br />
-    <div class="container cont-1">
-      <div class="cont-3">
-        <img src="Images/logo@2x-free-img.png" alt="DNK" style="height: 30px" />
-        <br />
-        <br />
-        <h3>The best look anytime, anywhere.</h3>
-      </div>
-      <div class="cont-4">
-        <h4>For Her</h4>
-        <a href="#" class="text-decoration-none text-dark">Women jeans</a>
-        <br />
-        <a href="#" class="text-decoration-none text-dark">Tops and Shirts</a>
-        <br />
-        <a href="#" class="text-decoration-none text-dark">Women Jackets</a>
-        <br />
-        <a href="#" class="text-decoration-none text-dark">Heels and Flats</a>
-        <br />
-        <a href="#" class="text-decoration-none text-dark">Women Accessories</a>
-      </div>
-      <div class="cont-4">
-        <h4>For Him</h4>
-        <a href="#" class="text-decoration-none text-dark">Men Jeans</a>
-        <br />
-        <a href="#" class="text-decoration-none text-dark">Men Shirts</a>
-        <br />
-        <a href="#" class="text-decoration-none text-dark">Men Shoes</a>
-        <br />
-        <a href="#" class="text-decoration-none text-dark">Men Accessories</a>
-        <br />
-        <a href="#" class="text-decoration-none text-dark">Men Jackets</a>
-      </div>
-      <div>
-        <h2>Subscribe</h2>
-        <input type="text" placeholder="Your email adress..." />
-        <br />
-        <br />
-        <button class="btn btn-outline-primary-1 btn-primary text-light">
-          SUBSCRIBE
-        </button>
+    <!-- Footer text ended -->
+    <div class="container">
+      <div class="cont-1">
+        <div class="cont-3">
+          <img src="Images/logo@2x-free-img.png" alt="DNK" style="height: 30px" />
+          <br />
+          <br />
+          <h3 class="s-s">The best look anytime, anywhere.</h3>
+        </div>
+        <div class="cont-4">
+          <h4>For Her</h4>
+          <a href="#" class="text-decoration-none text-dark">Women jeans</a>
+          <br />
+          <a href="#" class="text-decoration-none text-dark">Tops and Shirts</a>
+          <br />
+          <a href="#" class="text-decoration-none text-dark">Women Jackets</a>
+          <br />
+          <a href="#" class="text-decoration-none text-dark">Heels and Flats</a>
+          <br />
+          <a href="#" class="text-decoration-none text-dark">Women Accessories</a>
+        </div>
+        <div class="cont-4">
+          <h4>For Him</h4>
+          <a href="#" class="text-decoration-none text-dark">Men Jeans</a>
+          <br />
+          <a href="#" class="text-decoration-none text-dark">Men Shirts</a>
+          <br />
+          <a href="#" class="text-decoration-none text-dark">Men Shoes</a>
+          <br />
+          <a href="#" class="text-decoration-none text-dark">Men Accessories</a>
+          <br />
+          <a href="#" class="text-decoration-none text-dark">Men Jackets</a>
+        </div>
+        <div class="cont-4">
+          <h2>Subscribe</h2>
+          <input type="text" placeholder="Your email adress..." style="width: 100%;" />
+          <br />
+          <br />
+          <button class="btn btn-outline-primary-1 btn-primary text-light">
+            SUBSCRIBE
+          </button>
+        </div>
       </div>
     </div>
-    <div class="container mt-5">
-      <p class="mt-5">Copyright © 2024 Brandstore. Powered by Brandstore.</p>
-      <div class="cont-5">
+    <!-- footer text ended-->
+    <!-- icons started -->
+    <div class="container h-25 cont-dis mt-5">
+      <p class="w-1 txt-st">Copyright © 2024 Brandstore. Powered by Brandstore.</p>
+      <div class="w-1 txt-ed">
         <i class="fa-brands fa-facebook-f mx-2"></i>
         <i class="fa-brands fa-youtube mx-2"></i>
         <i class="fa-brands fa-twitter mx-2"></i>
@@ -502,6 +536,7 @@
         <i class="fa-brands fa- mx-2"></i>
       </div>
     </div>
+    <!-- icons ended -->
     <script src="script.js"></script>
   </body>
 </html>

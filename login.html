@@ -13,21 +13,11 @@
       src="https://kit.fontawesome.com/f240561dba.js"
       crossorigin="anonymous"
     ></script>
+    <link rel="stylesheet" href="Boot.css" />
+    <link rel="stylesheet" href="style.css" />
+    <link rel="stylesheet" href="media.css" />
     <title>Document</title>
     <style>
-      .bg-danger-1 {
-        background-color: rgba(0, 0, 0, 0.078) !important;
-      }
-      .container-1 {
-        width: 35vh;
-        margin: auto;
-      }
-      .Container {
-        width: 20%;
-        margin: auto;
-        padding: 10px;
-      }
-
       input {
         width: 100%;
       }
@@ -36,29 +26,6 @@
         border-radius: 2px;
         width: 60px;
         padding: 5px;
-      }
-      .dip {
-        width: 40vh;
-      }
-      .check {
-        position: relative;
-        top: 10px;
-        right: 130px;
-      }
-      .box {
-        position: relative;
-        right: 30px;
-        bottom: 20px;
-      }
-      .bttn {
-        position: relative;
-        bottom: 15px;
-        left: 50px;
-      }
-      .chk {
-        border: 1px solid rgba(0, 0, 0, 0.475);
-        height: 40px;
-        border-radius: 5px;
       }
     </style>
   </head>
@@ -72,34 +39,36 @@
         style="height: 100px"
       />
     </center>
-    <div class="Container border border-5 mt-4 bg-light">
-      <center>
-        <br />
-        <label for="Email text-start">Username or Email Address</label>
-        <br />
-        <input name="Email" type="email" id="1n" class="chk" />
-        <br />
-        <label for="Password">Password</label>
-        <br />
-        <input name="Password" type="password" id="Pw" class="chk" />
-        <br />
-        <div class="dip">
-          <input name="Rememberme" type="checkbox" class="check" />
-          <label for="Rememberme" class="box">Remember Me</label>
-          <button
-            onclick="signUp()"
-            class="btn-outline-primary-1 btn-primary text-light bttn f-s"
-          >
-            Log In
-          </button>
-        </div>
-      </center>
+    <div class="Container mt-4 bg-light">
+      <br />
+      <label for="Email text-start">Username or Email Address</label>
+      <br />
+      <input name="Email" type="email" id="1n" class="chk" />
+      <br />
+      <label for="Password">Password</label>
+      <br />
+      <input name="Password" type="password" id="Pw" class="chk" />
+      <br />
+      <div class="dip">
+        <input name="Rememberme" type="checkbox" class="check" />
+        <label for="Rememberme" class="box">Remember Me</label>
+        <button
+          onclick="signUp()"
+          class="btn-outline-primary-1 btn-primary text-light bttn"
+        >
+          Log In
+        </button>
+      </div>
     </div>
-    <br>
-    <div class="container-1">
-      <a href="lost.html" class="f-s text-decoration-none text-dark">Lost your password?</a>
-      <br>
-      <a href="index.html" class="f-s text-decoration-none text-dark"><i class="fa-solid fa-arrow-left"></i> Go to Brandstore</a>
+    <br />
+    <div class="Container-2">
+      <a href="lost.html" class="text-decoration-none text-dark"
+        >Lost your password?</a
+      >
+      <br />
+      <a href="index.html" class="text-decoration-none text-dark"
+        ><i class="fa-solid fa-arrow-left"></i> Go to Brandstore</a
+      >
     </div>
     <script src="js.js"></script>
   </body>
