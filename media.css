@@ -346,9 +346,9 @@
       height: 65vh;
     }
     .mt-6{
-      margin: 60px;
-      height: 55vh;
-      width: 75vw;
+      margin-top: 60px;
+      height: 60vh;
+      width: 100%;
     }
     .f-f{
       font-size: 35px;
